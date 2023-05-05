@@ -1,0 +1,3 @@
+[submodule "tweet-cards"]
+	path = tweet-cards
+	url = https://github.com/user/tweet-cards.git
