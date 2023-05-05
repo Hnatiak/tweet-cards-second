@@ -5,14 +5,12 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 24px;
-  width: 720px;
   height: 60vh;
   margin-top: 48px;
   padding: 24px 200px 24px 48px;
   color: #373737;
   background-image: linear-gradient(to left, #5cd3a899 25%, #5cd3a8);
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  clip-path: polygon(0 0, 100% 0%, 80% 100%, 0 100%);
 
   @media screen and (max-width: 768px) {
     width: 440px;
