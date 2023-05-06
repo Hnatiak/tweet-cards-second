@@ -22,5 +22,3 @@ function HomePage() {
 }
 
 export default HomePage;
-
-//awdj
