@@ -39,9 +39,9 @@ function TweetsPage() {
     })();
   }, []);
 
-  useEffect(() => {
-    console.log(Date.now(), isLoading);
-  }, [isLoading]);
+  // useEffect(() => {
+  //   console.log(Date.now(), isLoading);
+  // }, [isLoading]);
 
   useEffect(() => {
     smoothlyScroll();
