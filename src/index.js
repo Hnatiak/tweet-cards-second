@@ -17,19 +17,34 @@
 // reportWebVitals();
 
 
+// import React from "react";
+// import ReactDOM from "react-dom/client";
+// import { BrowserRouter } from "react-router-dom";
+// import App from "./components/App";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <BrowserRouter>
+//       <App />
+//     </BrowserRouter>
+//   </React.StrictMode>
+// );
+
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import App from "./components/App";
+import DefaultPage from "./components/DefaultPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <Switch>
+        <Route exact path="/" component={App} />
+        <Route path="*" component={DefaultPage} />
+      </Switch>
     </BrowserRouter>
   </React.StrictMode>
 );
-
-
-//What is going on?
